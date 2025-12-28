@@ -17,3 +17,7 @@
 
 ## Learning Log
 각 챕터별 **학습 내용**과 **트러블 슈팅**은 `docs` 폴더에 정리되어 있습니다.
+
+| Chapter | 주제 | 실습 코드 | 학습 노트 | 비고 |
+| :---: | :--- | :---: | :---: | :---: |
+| 01 | Learn Spring Framework | [챕터1 코드](./01-learn-spring-framework/) | [챕터1 학습노트](./docs/01-learn-spring-framework.md) | 진행중 |

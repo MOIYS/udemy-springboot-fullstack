@@ -9,3 +9,7 @@
 | **[1.4 Spring Container](./01-details/1.4%20Spring%20Container.md)** | `Spring Container`  `Spring Context` `IOC Container`  `Bean Factory`   `Application Context`  |
 | **[1.5 Java Bean / Spring Bean](./01-details/1.5-java-bean-spring-bean.md)** | `Java Bean`  `POJO`  `Spring Bean` |
 | **[1.6 Try-with-resources](./01-details/1.6-try-with-resources.md)** | `Try-with-resources` | 
+| **[1.7 @Component](./01-details/1.7-component.md)** | `@Component`  `ComponentScan` | 
+| **[1.8 @Primary / @Qualifier](./01-details/1.8-primary-qualifier.md)** | `@Primary`  `@Qualifier` | 
+| **[1.9 의존성 주입(Depedency Injection)](./01-details/1.9-dependency-injection.md)** | `DI`  `IoC`  `Constructor-based Injection`  `Setter-based Injection`  `Field Injection`        | 
+| **[1.10 리플렉션(Reflection)](./01-details/1.10-reflection.md)** | `Reflection` | 

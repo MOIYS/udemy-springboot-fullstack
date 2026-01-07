@@ -20,4 +20,4 @@
 
 | Chapter | 주제 | 실습 코드 | 학습 노트 | 비고 |
 | :---: | :--- | :---: | :---: | :---: |
-| 01 | Learn Spring Framework | [챕터1 코드](./01-learn-spring-framework/) | [챕터1 학습노트](./docs/01-learn-spring-framework.md) | 진행중 |
+| 01 | Learn Spring Framework | [챕터1 코드](./01-learn-spring-framework/) | [챕터1 학습노트](./docs/01-learn-spring-framework.md) | 완료 |

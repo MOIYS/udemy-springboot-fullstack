@@ -1,8 +1,9 @@
 package MOIYS.project.learn_spring_framework.examples.realworld;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+// @Component
+@Repository
 public class MongoDbDataService implements DataService {
 
     @Override

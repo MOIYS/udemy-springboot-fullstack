@@ -2,9 +2,10 @@ package MOIYS.project.learn_spring_framework.examples.realworld;
 
 import java.util.Arrays;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+// @Component
+@Service
 public class BusinessCalculationService {
 
     DataService dataService;

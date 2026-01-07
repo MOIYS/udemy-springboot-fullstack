@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 스프링 설정 파일 선언 -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- Bean 생성 -->
+    <bean id="name" class="java.lang.String">
+        <constructor-arg value="MOIYS"/>
+    </bean>
+
+    <bean id="age" class="java.lang.Integer">
+        <constructor-arg value="21"/>
+    </bean>
+
+    <!-- component scan 사용 -->
+    <context:component-scan
+            base-package="MOIYS.project.learn_spring_framework.game"/>
+
+    <!-- 수동 Bean 등록 -->
+    <bean id="game" class="MOIYS.project.learn_spring_framework.game.MarioGame"/>
+
+    <bean id="gameRunner"
+          class="MOIYS.project.learn_spring_framework.game.GameRunner">
+        <constructor-arg ref="game"/> <!-- gameRunner에 game 의존성 주입 -->
+    </bean>
+</beans>

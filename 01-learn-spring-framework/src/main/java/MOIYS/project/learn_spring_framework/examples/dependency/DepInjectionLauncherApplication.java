@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 class MyBusinessClass {
 
-    // Field-based 주입
+    // Field 주입
 //    @Autowired
 //    Dependency1 dependency1;
 //

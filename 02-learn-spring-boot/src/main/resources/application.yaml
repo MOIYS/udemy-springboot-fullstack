@@ -1,0 +1,25 @@
+# 로깅 레벨을 debug로 설정
+logging:
+  level:
+    org.springframework: debug
+
+currency-service:
+  url: http://default.moiys.com
+  username: defaultusername
+  key: defaultkey
+
+# Actuator가 제공하는 모든 엔드포인트 보기
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+spring:
+  application:
+    name: 02-learn-spring-boot
+
+  # 'prod' 프로필 사용
+  profiles:
+    active: prod
+

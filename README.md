@@ -22,3 +22,4 @@
 | :---: | :--- | :---: | :---: | :---: |
 | 01 | Learn Spring Framework | [챕터1 코드](./01-learn-spring-framework/) | [챕터1 학습노트](./docs/01-learn-spring-framework.md) | 완료 |
 | 02 | Learn Spring Boot | [챕터2 코드](./02-learn-spring-boot/) | [챕터2 학습노트](./docs/02-learn-spring-boot.md) | 완료 |
+| 03 | Learn JPA and Hibernate  | [챕터3 코드](./03-learn-jpa-and-hibernate/) | [챕터3 학습노트](./docs/03-learn-jpa-and-hibernate.md) | 완료 |
